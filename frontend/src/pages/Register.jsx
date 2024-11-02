@@ -109,7 +109,34 @@ const Register = () => {
                 className="bg-white border border-white rounded-lg text-black mr-2 p-1 w-24 focus:outline-none focus:ring-2 focus:ring-orange-500"
               >
                 <option value="" disabled>Select country code</option>
-                {/* Other options remain the same */}
+                <option value="+1">+1 (USA/Canada)</option>
+                <option value="+91">+91 (India)</option>
+                <option value="+44">+44 (UK)</option>
+                <option value="+61">+61 (Australia)</option>
+                <option value="+49">+49 (Germany)</option>
+                <option value="+33">+33 (France)</option>
+                <option value="+81">+81 (Japan)</option>
+                <option value="+86">+86 (China)</option>
+                <option value="+7">+7 (Russia)</option>
+                <option value="+39">+39 (Italy)</option>
+                <option value="+34">+34 (Spain)</option>
+                <option value="+55">+55 (Brazil)</option>
+                <option value="+27">+27 (South Africa)</option>
+                <option value="+82">+82 (South Korea)</option>
+                <option value="+46">+46 (Sweden)</option>
+                <option value="+31">+31 (Netherlands)</option>
+                <option value="+61">+61 (New Zealand)</option>
+                <option value="+353">+353 (Ireland)</option>
+                <option value="+420">+420 (Czech Republic)</option>
+                <option value="+45">+45 (Denmark)</option>
+                <option value="+351">+351 (Portugal)</option>
+                <option value="+47">+47 (Norway)</option>
+                <option value="+41">+41 (Switzerland)</option>
+                <option value="+43">+43 (Austria)</option>
+                <option value="+48">+48 (Poland)</option>
+                <option value="+30">+30 (Greece)</option>
+                <option value="+41">+41 (Switzerland)</option>
+                <option value="+886">+886 (Taiwan)</option>
               </select>
               <input
                 type="text"
